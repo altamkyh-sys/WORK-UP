@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cairo: "Cairo", "Tajawal", sans-serif;
+  --font-tajawal: "Tajawal", "Cairo", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-tajawal);
+  background-color: #f6f9fa;
+  color: #1c2b54;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #00c0a5;
+  color: #ffffff;
+}
